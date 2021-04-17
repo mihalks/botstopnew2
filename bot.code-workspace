@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"name": "Server",
+			"path": "server"
+		},
+        {
+			"name": "Client",
+			"path": "client"
+		},
+		{
+			"name": "Bot",
+			"path": "bot"
+		},
+		{
+            "name": "Configs (Root)",
+            "path": "."
+        },
+	],
+	"settings": {
+		   "files.exclude": {
+            "**/.git": true,
+            "**/node_modules": true,
+            "bot": true,
+            "**/build": true,
+            "**/dist": true
+        },
+	},
+	"extensions": {
+        "recommendations": [
+            "msjsdiag.debugger-for-chrome",
+            "ms-azuretools.vscode-docker",
+            "ms-vscode.vscode-typescript-tslint-plugin",
+            "mhutchie.git-graph",
+            "esbenp.prettier-vscode"
+        ]
+    }
+}
